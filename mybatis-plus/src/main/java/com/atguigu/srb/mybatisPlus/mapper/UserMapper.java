@@ -18,5 +18,6 @@ import java.util.List;
 
 public interface UserMapper  extends BaseMapper<User> {
 
+    //自定义mapper
     List<User> selectAllByName(@Param("name") String name);
 }

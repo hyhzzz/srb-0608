@@ -3,6 +3,8 @@ package com.atguigu.srb.mybatisPlus.service;
 import com.atguigu.srb.mybatisPlus.pojo.entity.User;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
+
 /**
  * ClassName: Usersrvice
  * Package: com.atguigu.srb.mybatisPlus.service
@@ -14,4 +16,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  */
 public interface UserService extends IService<User> {
 
+    //自定义service
+    List<User> getUserListByName(String name);
 }
