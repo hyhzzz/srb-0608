@@ -10,6 +10,9 @@
     <packaging>pom</packaging>
     <modules>
         <module>mybatis-plus</module>
+        <module>guigu-common</module>
+        <module>service-base</module>
+        <module>service-core</module>
     </modules>
 
     <parent>
